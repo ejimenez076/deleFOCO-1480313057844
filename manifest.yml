@@ -1,0 +1,13 @@
+applications:
+- path: .
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: deleFOCO
+  host: deleFOCO
+  disk_quota: 1024M
+  services:
+  - deleFOCO-AdvancedMobileAccess
+  - deleFOCO-imfpush
+  - deleFOCO-cloudantNoSQLDB
+  - Mobile Client Access-iw1n2ycg
